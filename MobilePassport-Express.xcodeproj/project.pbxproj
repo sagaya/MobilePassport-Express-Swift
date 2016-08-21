@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2C1BD71D6A2B5D00CB52ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C1BD61D6A2B5D00CB52ED /* AppDelegate.swift */; };
+		6D2C1BD91D6A2B5D00CB52ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C1BD81D6A2B5D00CB52ED /* ViewController.swift */; };
+		6D2C1BDC1D6A2B5D00CB52ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C1BDA1D6A2B5D00CB52ED /* Main.storyboard */; };
+		6D2C1BDE1D6A2B5D00CB52ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C1BDD1D6A2B5D00CB52ED /* Assets.xcassets */; };
+		6D2C1BE11D6A2B5D00CB52ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C1BDF1D6A2B5D00CB52ED /* LaunchScreen.storyboard */; };
+		6DB56AAE1D6A300F003C88B8 /* railway.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DB56AAD1D6A300F003C88B8 /* railway.gif */; };
+		6DB56AB01D6A31AE003C88B8 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DB56AAF1D6A31AE003C88B8 /* 2.gif */; };
+		6DB56AB21D6A331A003C88B8 /* Custom_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB56AB11D6A331A003C88B8 /* Custom_Button.swift */; };
+		6DB56AB41D6A33C7003C88B8 /* Custom_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB56AB31D6A33C7003C88B8 /* Custom_TextField.swift */; };
+		6DB56AB61D6A36C7003C88B8 /* Dataservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB56AB51D6A36C7003C88B8 /* Dataservice.swift */; };
+		6DB56AB81D6A3AC7003C88B8 /* loggeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB56AB71D6A3AC7003C88B8 /* loggeViewController.swift */; };
+		6DB56ABA1D6A3AFC003C88B8 /* lc-landscape.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DB56AB91D6A3AFC003C88B8 /* lc-landscape.gif */; };
+		9FB4C03233BD5871A3A1434D /* Pods_MobilePassport_Express.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D152368921F1A6AD3F3BE6 /* Pods_MobilePassport_Express.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		496F1AD51F2A0176C4C6F16A /* Pods-MobilePassport-Express.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePassport-Express.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePassport-Express/Pods-MobilePassport-Express.release.xcconfig"; sourceTree = "<group>"; };
+		69D152368921F1A6AD3F3BE6 /* Pods_MobilePassport_Express.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobilePassport_Express.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2C1BD31D6A2B5D00CB52ED /* MobilePassport-Express.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobilePassport-Express.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2C1BD61D6A2B5D00CB52ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D2C1BD81D6A2B5D00CB52ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D2C1BDB1D6A2B5D00CB52ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D2C1BDD1D6A2B5D00CB52ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2C1BE01D6A2B5D00CB52ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2C1BE21D6A2B5D00CB52ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB56AAD1D6A300F003C88B8 /* railway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway.gif; sourceTree = "<group>"; };
+		6DB56AAF1D6A31AE003C88B8 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		6DB56AB11D6A331A003C88B8 /* Custom_Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom_Button.swift; sourceTree = "<group>"; };
+		6DB56AB31D6A33C7003C88B8 /* Custom_TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom_TextField.swift; sourceTree = "<group>"; };
+		6DB56AB51D6A36C7003C88B8 /* Dataservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataservice.swift; sourceTree = "<group>"; };
+		6DB56AB71D6A3AC7003C88B8 /* loggeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loggeViewController.swift; sourceTree = "<group>"; };
+		6DB56AB91D6A3AFC003C88B8 /* lc-landscape.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "lc-landscape.gif"; sourceTree = "<group>"; };
+		C4498ED4C1C3BF2E6C3CE7FE /* Pods-MobilePassport-Express.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobilePassport-Express.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobilePassport-Express/Pods-MobilePassport-Express.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2C1BD01D6A2B5C00CB52ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB4C03233BD5871A3A1434D /* Pods_MobilePassport_Express.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC3C3D94E5E0282AD4FF49D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4498ED4C1C3BF2E6C3CE7FE /* Pods-MobilePassport-Express.debug.xcconfig */,
+				496F1AD51F2A0176C4C6F16A /* Pods-MobilePassport-Express.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D2C1BCA1D6A2B5C00CB52ED = {
+			isa = PBXGroup;
+			children = (
+				6D2C1BD51D6A2B5D00CB52ED /* MobilePassport-Express */,
+				6D2C1BD41D6A2B5D00CB52ED /* Products */,
+				6CC3C3D94E5E0282AD4FF49D /* Pods */,
+				77713CD178F710EAE820B387 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2C1BD41D6A2B5D00CB52ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C1BD31D6A2B5D00CB52ED /* MobilePassport-Express.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2C1BD51D6A2B5D00CB52ED /* MobilePassport-Express */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C1BD61D6A2B5D00CB52ED /* AppDelegate.swift */,
+				6D2C1BD81D6A2B5D00CB52ED /* ViewController.swift */,
+				6DB56AB51D6A36C7003C88B8 /* Dataservice.swift */,
+				6D2C1BDA1D6A2B5D00CB52ED /* Main.storyboard */,
+				6DB56AB71D6A3AC7003C88B8 /* loggeViewController.swift */,
+				6DB56AB31D6A33C7003C88B8 /* Custom_TextField.swift */,
+				6DB56AB11D6A331A003C88B8 /* Custom_Button.swift */,
+				6D2C1BDD1D6A2B5D00CB52ED /* Assets.xcassets */,
+				6D2C1BDF1D6A2B5D00CB52ED /* LaunchScreen.storyboard */,
+				6DB56AB91D6A3AFC003C88B8 /* lc-landscape.gif */,
+				6DB56AAD1D6A300F003C88B8 /* railway.gif */,
+				6DB56AAF1D6A31AE003C88B8 /* 2.gif */,
+				6D2C1BE21D6A2B5D00CB52ED /* Info.plist */,
+			);
+			path = "MobilePassport-Express";
+			sourceTree = "<group>";
+		};
+		77713CD178F710EAE820B387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69D152368921F1A6AD3F3BE6 /* Pods_MobilePassport_Express.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2C1BD21D6A2B5C00CB52ED /* MobilePassport-Express */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2C1BE51D6A2B5D00CB52ED /* Build configuration list for PBXNativeTarget "MobilePassport-Express" */;
+			buildPhases = (
+				7C50512FA9081EED8FB7EF4B /* Check Pods Manifest.lock */,
+				6D2C1BCF1D6A2B5C00CB52ED /* Sources */,
+				6D2C1BD01D6A2B5C00CB52ED /* Frameworks */,
+				6D2C1BD11D6A2B5C00CB52ED /* Resources */,
+				C6091C0443AAB66034EA6BEC /* Embed Pods Frameworks */,
+				38854E2AEC930B32AD64B5BD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobilePassport-Express";
+			productName = "MobilePassport-Express";
+			productReference = 6D2C1BD31D6A2B5D00CB52ED /* MobilePassport-Express.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2C1BCB1D6A2B5C00CB52ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "sagaya Abdulhafeez";
+				TargetAttributes = {
+					6D2C1BD21D6A2B5C00CB52ED = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PBZ9S8GP84;
+					};
+				};
+			};
+			buildConfigurationList = 6D2C1BCE1D6A2B5C00CB52ED /* Build configuration list for PBXProject "MobilePassport-Express" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2C1BCA1D6A2B5C00CB52ED;
+			productRefGroup = 6D2C1BD41D6A2B5D00CB52ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2C1BD21D6A2B5C00CB52ED /* MobilePassport-Express */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2C1BD11D6A2B5C00CB52ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB56AAE1D6A300F003C88B8 /* railway.gif in Resources */,
+				6DB56AB01D6A31AE003C88B8 /* 2.gif in Resources */,
+				6D2C1BE11D6A2B5D00CB52ED /* LaunchScreen.storyboard in Resources */,
+				6D2C1BDE1D6A2B5D00CB52ED /* Assets.xcassets in Resources */,
+				6D2C1BDC1D6A2B5D00CB52ED /* Main.storyboard in Resources */,
+				6DB56ABA1D6A3AFC003C88B8 /* lc-landscape.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38854E2AEC930B32AD64B5BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilePassport-Express/Pods-MobilePassport-Express-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C50512FA9081EED8FB7EF4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6091C0443AAB66034EA6BEC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobilePassport-Express/Pods-MobilePassport-Express-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2C1BCF1D6A2B5C00CB52ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB56AB41D6A33C7003C88B8 /* Custom_TextField.swift in Sources */,
+				6D2C1BD91D6A2B5D00CB52ED /* ViewController.swift in Sources */,
+				6DB56AB21D6A331A003C88B8 /* Custom_Button.swift in Sources */,
+				6DB56AB61D6A36C7003C88B8 /* Dataservice.swift in Sources */,
+				6D2C1BD71D6A2B5D00CB52ED /* AppDelegate.swift in Sources */,
+				6DB56AB81D6A3AC7003C88B8 /* loggeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D2C1BDA1D6A2B5D00CB52ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2C1BDB1D6A2B5D00CB52ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2C1BDF1D6A2B5D00CB52ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2C1BE01D6A2B5D00CB52ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2C1BE31D6A2B5D00CB52ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D2C1BE41D6A2B5D00CB52ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2C1BE61D6A2B5D00CB52ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4498ED4C1C3BF2E6C3CE7FE /* Pods-MobilePassport-Express.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MobilePassport-Express/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmo.MobilePassport-Express";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D2C1BE71D6A2B5D00CB52ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496F1AD51F2A0176C4C6F16A /* Pods-MobilePassport-Express.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MobilePassport-Express/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmo.MobilePassport-Express";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2C1BCE1D6A2B5C00CB52ED /* Build configuration list for PBXProject "MobilePassport-Express" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C1BE31D6A2B5D00CB52ED /* Debug */,
+				6D2C1BE41D6A2B5D00CB52ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2C1BE51D6A2B5D00CB52ED /* Build configuration list for PBXNativeTarget "MobilePassport-Express" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C1BE61D6A2B5D00CB52ED /* Debug */,
+				6D2C1BE71D6A2B5D00CB52ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D2C1BCB1D6A2B5C00CB52ED /* Project object */;
+}
