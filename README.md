@@ -2,9 +2,7 @@
 # MobilePassport Swift
 Authentication with Passport.js on iOS 
 
-
-![alt tag](http://i.giphy.com/26ufktU8fHVRvKQLK.gif)
-
+[Demo](http://i.imgur.com/mhRTYCC.gifv)
 
 Install the packages by running
 `pod install`
