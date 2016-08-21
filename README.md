@@ -15,3 +15,6 @@ Install the packages by running
 
 Now run the app!
 
+Licensed under the **[MIT License] [license]**.
+
+[license]: https://github.com/cosmo1234/MobilePassport-Express-Swift/blob/master/License.md
