@@ -8,7 +8,11 @@ Install the packages by running
 `pod install`
 
 [x]To use the application replace the url in the `Dataservice.swift` to your endpoint url.
+
+
 [x]Uncomment this line `Dataservice.ds.callSH(username, password: password, f: segue()` in `ViewController.swift
+
+
 [x]Delete the segue() function in the `login` @IBAction
 
 Now run the app!
